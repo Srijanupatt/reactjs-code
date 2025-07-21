@@ -1,0 +1,44 @@
+[
+  {
+    "name": "mirzapur",
+    "id": "mirzapur",
+    "img":"mirzapur.jpg",
+    "rating": "8.3",
+    "description": "A criminal mastermind who goes by 'The Professor' plans the biggest heist in recorded history.",
+   "cast": ["Úrsula Corberó", "Álvaro Morte", "Itziar Ituño"],    
+   "genre": ["Action", "Crime", "Drama"],
+   "watch_url":"https://www.youtube.com/"
+  },
+  {
+    "name": "Master",
+    "id": "master",
+    "img":"Master.jpg",
+    "rating": "8.6",
+    "description": "Master is a 2021 Indian action-thriller film where an alcoholic professor, JD, is sent to a juvenile detention center for three months.",
+    "cast": ["Claire Foy", "Olivia Colman", "Imelda Staunton"],
+    "genre": ["Biography", "Drama", "History"],
+    "watch_url": "https://www.netflix.com/title/80025678"
+  },
+  {
+    "name": "V",
+    "id": "V",
+    "img": "V.jpg",
+    "rating": "8.7",
+  "description": "V is a Telugu crime thriller where Nani plays a mysterious, vengeful killer who challenges a celebrated cop, played by Sudheer Babu, to a deadly game of cat and mouse.",
+    "cast": ["Millie Bobby Brown", "Finn Wolfhard", "David Harbour"],
+    "genre": ["Drama", "Fantasy", "Horror"],
+    "watch_url": "https://www.netflix.com/title/80057281"
+  }
+,
+{
+  "name": "leila",
+    "id": "leila",
+    "img": "leila.jpg",
+    "rating": "8.7",
+  "description": "V is a Telugu crime thriller where Nani plays a mysterious, vengeful killer who challenges a celebrated cop, played by Sudheer Babu, to a deadly game of cat and mouse.",
+    "cast": ["Millie Bobby Brown", "Finn Wolfhard", "David Harbour"],
+    "genre": ["Drama", "Fantasy", "Horror"],
+    "watch_url": "https://www.netflix.com/title/80057281"
+
+}]
+

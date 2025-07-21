@@ -1,0 +1,32 @@
+[
+  {
+    "name": "mirzapur",
+    "id": "money-heist",
+    "img":"mirzapur.jpg",
+    "rating": "8.3",
+    "description": "A criminal mastermind who goes by 'The Professor' plans the biggest heist in recorded history.",
+   "cast": ["Úrsula Corberó", "Álvaro Morte", "Itziar Ituño"],    
+   "genre": ["Action", "Crime", "Drama"],
+   "watch_url":"https://www.youtube.com/"
+  },
+  {
+    "name": "The Crown",
+    "id": "the-crown",
+    "img": "http://localhost:5173/images/tc.webp",
+    "rating": "8.6",
+    "description": "Follows the political rivalries and romance of Queen Elizabeth II's reign and the events that shaped the second half of the 20th century.",
+    "cast": ["Claire Foy", "Olivia Colman", "Imelda Staunton"],
+    "genre": ["Biography", "Drama", "History"],
+    "watch_url": "https://www.netflix.com/title/80025678"
+  },
+  {
+    "name": "Stranger Things",
+    "id": "stranger-things",
+    "img": "http://localhost:5173/images/st.jpg",
+    "rating": "8.7",
+  "description": "A group of kids in a small town uncover a series of supernatural mysteries linked to a secret government lab.",
+    "cast": ["Millie Bobby Brown", "Finn Wolfhard", "David Harbour"],
+    "genre": ["Drama", "Fantasy", "Horror"],
+    "watch_url": "https://www.netflix.com/title/80057281"
+  }]
+
