@@ -1,20 +1,18 @@
 import React from 'react'
 import WelcomeUser from './WelcomeUser'
-
+// this is my parents  component
 function EventProps() {
-
 const handleWelcomeUser=(user)=>{
- console.log(`welcome ${user} my house`)
-  }
+  console.log(`welcome ${user} my bhai`)
+}
+const hadleHover=()=>{
+  alert("hi vinod")
+}
 
-  const handleHover = () => {
-    alert('hi bro');
-  };
   return (
     <div>
-    <WelcomeUser onClick={()=>handleWelcomeUser("vinod")}
-      onMouseEnter={handleHover} />
-
+     <WelcomeUser onClick={()=>handleWelcomeUser("vinod bhai")}
+      onMouseEnter={hadleHover}/>
 
     </div>
   )

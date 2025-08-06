@@ -1,14 +1,9 @@
 import React from 'react'
-// import EventProps from './Components/EventProps'
-i
-
-
+import UseRef from './components/UseRef'
 function App() {
   return (
     <div>
-    <Event/>
-    {/* <EventProps/> */}
-    
+      <UseRef></UseRef>
     </div>
   )
 }

@@ -1,35 +1,28 @@
 import React from 'react'
+// synthetic Base event in react like clicking a button or typing in an input box .react wraps native broswer event in somthing called synthetic Event .
 
-function Event() {
-//  function handleButtonCLick(){
-//   alert("hi")
-//  }
-
-// const handleButtonCLick=(event)=>{
+// event when you pass a function like handleclickBitton to an event handler (like onclick) react automatically passed one object  it is called event
+ function Event() {
+//  const handleClickButton=(event)=>{
 //   console.log(event)
-
-//   alert("hi bro")
 // }
-const handleWelcomeUser=(user)=>{
-  console.log(`hey user ${user}welcome`)
+
+ const handleClickButton=(user)=>{
+ console.log(`hi ${user} welcome bro`)
 }
-  return (
+
+
+ return (
     <div>
-      {/*<button onClick={handleButtonCLick}>click me</button>*/}
-      
-      {/*function   Comoponents with inline Arrow function*/}
-      {/*<button onClick={()=>alert("hey i am srijanu")}>
-        click
-      </button> /}
+ {/*<button onClick={handleClickButton}>clickme</button>*/}
 
-      {/*  */}
-   {/* passing argument to event handler */}
-   <button onClick={()=>handleWelcomeUser("vinod")}> </button>
+{/*function   Comoponents with inline Arrow function*/}
+{/* <button onClick={()=>alert("hi bro")}>click me bro </button> */}
 
-  
-
-    </div>
+{/* passing argument to event handler */}
+<button onClick={handleClickButton("vinod bhai")}>click here</button>
+</div>
   )
 }
 
-export default Event
+export default Event;
